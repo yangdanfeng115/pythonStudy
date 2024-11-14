@@ -136,6 +136,7 @@ Since immutable objects cannot change, Python can optimize memory usage by reusi
 
 # Summary of Immutable Objects:
 
+![immutable](https://github.com/yangdanfeng115/pythonStudy/blob/main/images/Immutable%20Objects.png)
 
 # How Immutable Objects Behave
 
