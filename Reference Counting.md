@@ -16,6 +16,8 @@ Let us say we make the following declarations:
 The statement x = 3.14 allocates a floating point number (float) object and assigns a reference x to it. xis the first reference, hence setting that object's refcount to one. The statement y = x creates an alias y, 
 which "points to" the same integer object as x . A new object is not created for y.
 
+![immutable](https://github.com/yangdanfeng115/pythonStudy/blob/main/images/An%20object%20with%20two%20references.png)
+
 Instead, the only thing that happens is that the reference count for this object is incremented by one (to 2). This is one way in which an object's refcount goes up. Other ways it can increment include the object 
 being passed into a function call, and when the object is added to a container object such as a list. 
 
