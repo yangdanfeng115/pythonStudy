@@ -89,4 +89,3 @@ print(MathUtils.is_even(10))       # Output: True
 
 ```
 
-# Guidelines to Choose:
