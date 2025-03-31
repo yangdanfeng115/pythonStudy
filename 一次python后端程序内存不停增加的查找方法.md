@@ -23,6 +23,17 @@ def memory_test():
 memory_test()
 ```
 
+# 使用工具后，很快定位到内存不断增加的地方。
+![GitHub Logo](https://github.com/yangdanfeng115/pythonStudy/blob/main/images/previous_bug.jpg)
+
+具体哪一行导致内存增加
+
+![GitHub Logo](https://github.com/yangdanfeng115/pythonStudy/blob/main/images/bug.jpg)
+
+问题解决后：
+
+![GitHub Logo](https://github.com/yangdanfeng115/pythonStudy/blob/main/images/after_bug.jpg)
+
 # 优点：
 
 可以逐行分析 Python 代码的内存占用情况。
